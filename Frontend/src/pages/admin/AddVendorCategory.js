@@ -36,7 +36,7 @@ export default function AddVendorCategory() {
   return (
     <>
       <div class="align-middle inline-block min-w-full shadow overflow-hidden bg-white shadow-dashboard px-8 py-3 pb-8 rounded-bl-lg rounded-br-lg">
-        <form onSubmit={handleSubmit} className="max-w-sm mx-auto mt-8">
+        <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-8">
           <div class="mb-6">
             <label
               for="name"
